@@ -1527,6 +1527,33 @@ COPY black_cards (id, text, draw, pick, watermark) FROM stdin;
 8707	Oh great, ____ is doing another ____ game LP.	0	2	DAH
 8708	In his new Co-op work SSoHPKC will be playing ____ with ____.	0	2	DAH
 8709	My name is-a ____ and i likea da ____.	0	2	DAH
+871001	The _____ Never Ends!	1	0	BB
+871002	The Post-_____ Recovery Meet	1	0	BB
+871003	_____ Aimlessly Bumble Around _____	2	0	BB
+871004	_____'s Epic Adventure	1	0	BB
+871005	Bloody Brilliant Brony _____ Bash	1	0	BB
+871006	Never Go Full _____	1	0	BB
+871007	Magical _____ Meet	1	0	BB
+871008	Some Days You Just Can't Get Rid of A _____	1	0	BB
+871009	Bring Your Own _____	1	0	BB
+871010	When The _____ is Away, The _____ Will Play	2	0	BB
+871011	International _____ Day	1	0	BB
+871012	Here Comes The _____	1	0	BB
+871013	None _____ with _____ _____	3	1	BB
+871014	Equestria _____	1	0	BB
+871015	LeonKFox was late again because of _____	1	0	BB
+871016	Ripp's train was delyaed because of _____	1	0	BB
+871017	After party at _____'s house!	1	0	BB
+871018	Bristol Bronies: _____	1	0	BB
+871019	What is going to appear as part of the next Bristol Bronies badge design?	1	0	BB
+871020	It was all going so well, until Lyraboy entered _____ into the bake-off.	1	0	BB
+871021	What is Lyraboy running away from now?	1	0	BB
+871022	We thought we had seen some bad OCs, but this new guy's special talent was _____.	1	0	BB
+871023	Alexx couldn't contain herself upon hearing _____ doing an impression of _____.	2	0	BB
+871024	Rather than end the meet with a brohoof, Grey decdied to change things up by _____.	1	0	BB
+871025	Pillow created an ingenious scheme to get more people to sit on him by _____.	1	0	BB
+871026	Dan's rum habit finally went too far after he decided to _____.	1	0	BB
+871027	The next wave of business cards controvertially contains an image of _____.	1	0	BB
 \.
 
 
@@ -1575,6 +1602,7 @@ COPY card_set (id, active, name, base_deck, description, weight) FROM stdin;
 100225	t	[CUSTOM] Mr. Man Collection	f		515
 100234	f	[CUSTOM] Anime Expansion #1	f	http://www.desudesbrigade.com/	507
 100236	f	[CUSTOM] Antisocial Injustice	f		521
+871000	t	[UNIQUE] Bristol Bronies	f	Cards for BB	100
 \.
 
 
@@ -3189,6 +3217,33 @@ COPY card_set_black_card (card_set_id, black_card_id) FROM stdin;
 100236	8750
 100236	8751
 100236	8747
+871001	871000
+871002	871000
+871003	871000
+871004	871000
+871005	871000
+871006	871000
+871007	871000
+871008	871000
+871009	871000
+871010	871000
+871011	871000
+871012	871000
+871013	871000
+871014	871000
+871015	871000
+871016	871000
+871017	871000
+871018	871000
+871019	871000
+871020	871000
+871021	871000
+871022	871000
+871023	871000
+871024	871000
+871025	871000
+871026	871000
+871027	871000
 \.
 
 
@@ -7586,6 +7641,75 @@ COPY card_set_white_card (card_set_id, white_card_id) FROM stdin;
 100236	15533
 100236	15534
 100236	15535
+871001	871000
+871002	871000
+871003	871000
+871004	871000
+871005	871000
+871006	871000
+871007	871000
+871008	871000
+871009	871000
+871010	871000
+871011	871000
+871012	871000
+871013	871000
+871014	871000
+871015	871000
+871016	871000
+871017	871000
+871018	871000
+871019	871000
+871020	871000
+871021	871000
+871022	871000
+871023	871000
+871024	871000
+871025	871000
+871026	871000
+871027	871000
+871028	871000
+871029	871000
+871030	871000
+871031	871000
+871032	871000
+871033	871000
+871034	871000
+871035	871000
+871036	871000
+871037	871000
+871038	871000
+871039	871000
+871040	871000
+871041	871000
+871042	871000
+871043	871000
+871044	871000
+871045	871000
+871046	871000
+871047	871000
+871048	871000
+871049	871000
+871050	871000
+871051	871000
+871052	871000
+871053	871000
+871054	871000
+871055	871000
+871056	871000
+871057	871000
+871058	871000
+871059	871000
+871060	871000
+871061	871000
+871062	871000
+871063	871000
+871064	871000
+871065	871000
+871066	871000
+871067	871000
+871068	871000
+871069	871000
 \.
 
 
@@ -10958,6 +11082,75 @@ COPY white_cards (id, text, watermark) FROM stdin;
 15365	Smash Fighter.	DAH
 15366	Totalbiscuit and Angry Joe frolicking in a meadow.	DAH
 15367	Chilled and Smarty's wedding.	DAH
+871001	Starbucks	BB
+871002	Hydra Books	BB
+871003	The Knights Templar	BB
+871004	Cabot Circus	BB
+871005	Forbidden Planet	BB
+871006	Excelsior	BB
+871007	College Green	BB
+871008	Krispy Kreme	BB
+871009	The Great and Powerful Grey	BB
+871010	Scribbsie	BB
+871011	Pillow	BB
+871012	Pillow's real name	BB
+871013	GraphiteSketch	BB
+871014	Cavatina	BB
+871015	Dan	BB
+871016	Jess	BB
+871017	PSat	BB
+871018	Ripp_	BB
+871019	FireSparkle	BB
+871020	SpikeyMikey	BB
+871021	Aurum Noble	BB
+871022	Leon K Fox	BB
+871023	Ultraboy	BB
+871024	Frohman	BB
+871025	Crimson Dawn	BB
+871026	Kean	BB
+871027	Ultroid	BB
+871028	Emerald Archer	BB
+871029	Klom	BB
+871030	Magpie	BB
+871031	Nexus	BB
+871032	Collared goggled birdhorse	BB
+871033	Bristol Bronies badge	BB
+871034	Blind bags	BB
+871035	Trading cards	BB
+871036	Comics	BB
+871037	Subway	BB
+871038	Build-a-Bear	BB
+871039	Twilicorn	BB
+871040	Derpy Hooves	BB
+871041	Braeburn	BB
+871042	GAK	BB
+871043	Izzy	BB
+871044	Pone: The Unoffical Mascot	BB
+871045	Cosplay Meet	BB
+871046	Bristol Bronies Twitter	BB
+871047	Animal Crossing	BB
+871048	A 50 calibre Nerf gun	BB
+871049	Collars	BB
+871050	A seal kigu	BB
+871051	A tray of Krispy Kreme doughnuts	BB
+871052	UK of Equestria forums	BB
+871053	The Great Brony Bake-Off	BB
+871054	PSat wearing a collar	BB
+871055	That Twilight Sparkle bow-tie	BB
+871056	Excessive amounts of Starbucks coffee	BB
+871057	Electrokitty's newest creation	BB
+871058	An excessive amount of butts	BB
+871059	Grey's sonic screwdriver	BB
+871060	The Skype chatroom	BB
+871061	How late Leon is going to arrive	BB
+871062	North East scum	BB
+871063	THE HILL leading towards Forbidden Planet	BB
+871064	Beating everyone at Flame War	BB
+871065	The UKoE Minecraft Server	BB
+871066	Birdhorses	BB
+871067	Boneheads	BB
+871068	Mudponies	BB
+871069	Dan's boombox	BB
 \.
 
 
